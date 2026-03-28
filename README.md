@@ -1,6 +1,7 @@
-# Car Price Prediction with Machine Learning - README
+# CodeAlpha Tasks - README
 
-## Overview
+## Car Price Prediction with Machine Learning 
+# Overview
 This notebook presents a complete machine learning workflow for predicting the selling price of used cars based on historical and technical vehicle attributes. The goal is to build a reliable regression model that can estimate car prices by learning patterns from data, similar to the pricing engines used by dealerships, online marketplaces, and automotive analytics platforms.
 
 ## Dataset
@@ -129,3 +130,42 @@ The notebook includes several visualizations to illustrate the findings:
 *   **Budget Comparison Bar Chart**: Compares current average advertising spend with the proposed optimal budget allocation.
 *   **Sales Uplift Bar Chart**: Displays the percentage sales uplift from a 20% increase in spend for each channel.
 *   **Sales Elasticity Bar Chart**: Illustrates the estimated sales elasticity for each advertising channel.
+
+# TASK 1: Iris Flower Classification Notebook
+
+## Overview
+This notebook provides a complete machine learning workflow for classifying Iris flower species using Python and popular data science libraries. It covers data loading, exploratory data analysis, visualization, model training, and evaluation.
+
+## Dataset
+*   **Name**: Iris Dataset
+*   **Description**: Contains measurements of 150 Iris flowers from three different species (Setosa, Versicolor, Virginica).
+*   **Features**: Sepal Length (cm), Sepal Width (cm), Petal Length (cm), Petal Width (cm).
+*   **Target**: Species of Iris flower.
+
+## Key Steps
+1.  **Data Loading**: The `Iris.csv` file is loaded into a pandas DataFrame.
+2.  **Exploratory Data Analysis (EDA)**: Initial data inspection, checking for missing values, and descriptive statistics.
+3.  **Data Visualization**: Plots to understand feature distributions and relationships between species (e.g., pair plots, scatter plots, box plots).
+4.  **Model Building**: 
+    *   Data split into training and testing sets.
+    *   **Random Forest Classifier** trained for species prediction.
+    *   **Decision Tree Classifier** trained for comparison.
+5.  **Model Evaluation**: 
+    *   Accuracy score, classification reports, and confusion matrices are generated for both models.
+    *   Feature importances are extracted from the Random Forest model.
+
+## Findings
+*   The Iris dataset is highly separable, especially using petal measurements.
+*   Both Random Forest and Decision Tree classifiers achieved **100% accuracy** on this dataset, demonstrating its clear class distinctions.
+*   Petal Length and Petal Width were identified as the most important features.
+
+## How to Run
+1.  Ensure `Iris.csv` is available in your Colab environment.
+2.  Run all cells sequentially.
+
+## Libraries Used
+*   `pandas`
+*   `numpy`
+*   `matplotlib`
+*   `seaborn`
+*   `scikit-learn`
